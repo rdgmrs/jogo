@@ -41,7 +41,7 @@ while True:
                 sys.exit()
             print(event)
         
-#joystick controles do player1
+#joystick controles do player1 ##
         comandos = pygame.key.get_pressed()
         if comandos[pygame.K_UP]:
             y_player1-= velocidade
@@ -115,4 +115,4 @@ while True:
 
         pygame.display.update()
 
-
+# varios codigos repetidos que necessitam refatoramento
